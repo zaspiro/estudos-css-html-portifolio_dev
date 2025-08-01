@@ -1,0 +1,26 @@
+.intro {
+    background-image: var(--bg-intro);
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+
+    h3 {
+        font: var(--subtitle);
+        color: var(--gray-200); 
+    }
+
+    h1 {
+        font: var(--title-lg);
+        color: var(--gray-100);
+    }
+
+    p {
+        font: var(--text-sm);
+        color: var(--gray-300);
+    }
+
+    ul {
+        color: var(--gray-200);
+    }
+    
+}

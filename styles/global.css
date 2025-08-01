@@ -5,6 +5,8 @@
 }
 
 :root {
+    
+    --bg-intro: url(../assets/Background_Intro.png);
 
     --red: #E3646E;
     --purple: #BB72E9;
@@ -17,4 +19,29 @@
     --gray-300: #878EA1;
     --gray-400: #292C34;
     --gray-500: #16181D;
+
+    --font-family-asap: 'Asap', sans-serif;
+    --font-family-inconsolata: 'Inconsolata', sans-serif;
+    --font-family-mavenpro: 'Maven Pro', sans-serif;
+
+    --title-lg: 56px/120% bold var(--font-family-asap);
+    --title-md-bold: 24px/120% bold var(--font-family-asap);
+    --title-sm-bold: 16px/120% bold var(--font-family-asap);
+
+    --subtitle: 20px/120% var(--font-family-inconsolata);
+    --text-md: 16px/140% var(--font-family-mavenpro);
+    --text-sm: 14px/140% var(--font-family-mavenpro);
+}
+
+main {
+    grid-template-areas: 
+    "intro"
+    "projects"
+    "services"
+    "contact";
+}
+
+body {
+
+    background-image: var(--bg-intro);
 }
