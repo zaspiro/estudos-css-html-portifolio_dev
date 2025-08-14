@@ -104,16 +104,38 @@
 
     }
 
-    .grid .projectcard .text{
+    .projectcards {
 
-        h1 {
-            font: var(--title-sm-bold);
-            color: var(--gray-100);
-        }
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        max-width: 1040px;
+        margin: 0 auto;
+        
+        
+        .projectcard {  
 
-        p {
-            font: var(--text-sm);
-            color: var(--gray-200);
+
+            padding: 18px;
+            box-sizing: border-box;
+            border-radius: 8px;
+
+            background-color: var(--gray-400);
+
+            img {
+                padding-bottom: 20px;
+                border-radius: 8px;
+            }
+
+            h1 {
+                padding-bottom: 8px;
+                font: var(--title-sm-bold);
+                color: var(--gray-100);
+            }
+
+            p {
+                font: var(--text-sm);
+                color: var(--gray-200);
+            }
         }
 
     }

@@ -34,12 +34,12 @@
 
 main {
 
-
-
     grid-template-areas: 
     "intro"
     "projects"
     "services"
     "contact";
 }
+
+
 
