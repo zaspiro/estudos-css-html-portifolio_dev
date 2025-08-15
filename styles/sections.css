@@ -75,8 +75,6 @@
 
 .projects {
     grid-area: projects;
-
-    
     background-color: var(--gray-500);
     min-height: 100vh;
     margin: 72px 120px 144px;  
@@ -106,28 +104,30 @@
 
     .projectcards {
 
-        grid-template-columns: repeat(3, 1fr);
-        gap: 24px;
-        max-width: 1040px;
-        margin: 0 auto;
         
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;  
+        margin: 0 auto;
+        padding: 0 16px;
         
         .projectcard {  
-
-
+            
             padding: 18px;
             box-sizing: border-box;
             border-radius: 8px;
-
+    
             background-color: var(--gray-400);
 
             img {
-                padding-bottom: 20px;
+                width: 100%;
+                height: auto;
+                display: block;
                 border-radius: 8px;
+                margin-bottom: 20px;
             }
 
             h1 {
-                padding-bottom: 8px;
+                margin-bottom: 8px;
                 font: var(--title-sm-bold);
                 color: var(--gray-100);
             }

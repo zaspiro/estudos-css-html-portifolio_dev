@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--gray-500);
+    
 }
 
     :root {
-        
+        background-color: var(--gray-500);
+            
         --bg-intro: url(../assets/Background_Intro.png);
 
         --red: #E3646E;
