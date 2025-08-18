@@ -142,9 +142,10 @@
 }
 
 .services {
+        background-color: var(--gray-600);
 
         header {
-        
+            margin-top: 88px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -165,4 +166,49 @@
             }
 
         }
+
+        .grid {
+
+
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+
+            margin-right: 120px;
+            margin-left: 120px;
+            margin-bottom: 120px;
+
+            align-items: stretch;
+            justify-content: center;
+            
+            
+            .card {
+                
+                min-height: 155px;
+                min-width: 280px;
+
+                border: 1px solid;
+                border-radius: 12px;
+                border-color: var(--gray-500);
+                padding: 20px;
+
+                img{
+                    margin-bottom: 20px;
+                }
+
+                h2 {       
+                    font: var(--title-sm-bold);
+                    color: var(--gray-100);
+                    padding-bottom: 8px;
+                }
+
+
+                p {
+                    font: var(--text-sm);
+                    color: var(--gray-200);
+                }
+            }
+
+        }
+
+
     }
